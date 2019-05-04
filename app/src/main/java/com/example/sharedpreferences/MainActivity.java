@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                 editor.putString(Phone, ph);
                 editor.putString(Email, e);
                 editor.commit();
-                Toast.makeText(MainActivity.this,"Thanks",Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this,"Your Information is saved",Toast.LENGTH_LONG).show();
             }
         });
     }
